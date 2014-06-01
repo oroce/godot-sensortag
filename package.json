@@ -1,0 +1,31 @@
+{
+  "name": "godot-sensortag",
+  "version": "0.0.0",
+  "description": "sensortag producer for godot",
+  "main": "sensortag.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oroce/godot-sensortag"
+  },
+  "keywords": [
+    "godot",
+    "sensortag",
+    "tist",
+    "texas",
+    "instruments",
+    "ble",
+    "btle"
+  ],
+  "author": "oroce <robert@oroszi.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oroce/godot-sensortag/issues"
+  },
+  "dependencies": {
+    "tist": "^0.1.0",
+    "godot-producer": "0.0.1"
+  }
+}
