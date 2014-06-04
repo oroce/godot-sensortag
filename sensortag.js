@@ -3,6 +3,7 @@ var Tist = require('tist');
 
 var SensorTagProducer = module.exports = producer(
   function constructor(options) {
+    options || (options = {});
     var self = this;
 
     this.metrics = {};
@@ -11,7 +12,7 @@ var SensorTagProducer = module.exports = producer(
     this.tist.on('device', function onTistDevice(device) {
       device.on('metric', function onMetric(name, value) {
         self.metrics[name] || (self.metrics[name] = []);
-        self.metrics[sensor].push({
+        self.metrics[name].push({
           value: value,
           when: Date.now(),
           device: device.uuid
