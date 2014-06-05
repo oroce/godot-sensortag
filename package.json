@@ -1,6 +1,6 @@
 {
   "name": "godot-sensortag",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "sensortag producer for godot",
   "main": "sensortag.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "url": "https://github.com/oroce/godot-sensortag/issues"
   },
   "dependencies": {
-    "tist": "^0.1.0",
-    "godot-producer": "0.0.1"
+    "godot-producer": "0.0.1",
+    "tist": "^0.2.0"
   }
 }
