@@ -25,7 +25,9 @@
     "url": "https://github.com/oroce/godot-sensortag/issues"
   },
   "dependencies": {
+    "debug": "^2.0.0",
     "godot-producer": "0.0.1",
+    "group-by": "0.0.1",
     "tist": "^0.2.0"
   }
 }
